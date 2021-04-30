@@ -1,7 +1,7 @@
 {
-  "name": "vue3template",
+  "name": "moviedb",
   "version": "1.0.0",
-  "author": "Rodolfo Romamn <rromanv@gmail.com>",
+  "author": "Eric Castellanos",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^4.8.4",
+    "@vueuse/firebase": "^4.9.1",
+    "firebase": "^8.4.3",
     "vue": "^3.0.5"
   },
   "devDependencies": {
