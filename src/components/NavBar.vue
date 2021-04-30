@@ -6,7 +6,7 @@
                 <p class="text-4xl tracking-widest text-transparent font-light bg-clip-text bg-gradient-to-r from-rose-500 via-green-600 to-blue-700">Movies<span class="font-bold">DB</span></p>
             </div>
             <div>
-                <div v-if="isAuthenticated" class="flex items-center space-x-5">
+                <div v-if="!isAuthenticated" class="flex items-center space-x-5">
                   <p class="text-blueGray-400">Hello {{user?.displayName}}</p>
                   <button class="px-8 py-2 font-medium bg-purple-900 rounded-full focus:ring-pink-400 focus:ring-2 focus:outline-none text-blueGray-300 hover:bg-purple-700" @click="signOut">
                     Logout

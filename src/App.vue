@@ -1,8 +1,8 @@
 <template>
   <NavBar/>
-  <Home v-if="isAuthenticated"/>
+  <Home v-if="!isAuthenticated"/>
   <notSignedin v-else/>
-  <Footer/>
+  <Footer v-if="isAuthenticated"/>
   </template>
   
   <script setup>
