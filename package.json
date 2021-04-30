@@ -1,7 +1,7 @@
 {
-  "name": "vue3template",
+  "name": "moviedb",
   "version": "1.0.0",
-  "author": "Rodolfo Romamn <rromanv@gmail.com>",
+  "author": "Eric Castellanos",
   "license": "ISC",
   "scripts": {
     "dev": "vite",
